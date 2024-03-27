@@ -1,4 +1,4 @@
-# Multi-objective-optimization  
+# Multi-objective optimization  
 
 This is the process of simultaneous optimization of two or more conflicting objective functions within a given domain of definition.  
 
