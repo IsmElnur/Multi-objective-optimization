@@ -175,7 +175,7 @@ class Pareto2:
         new_n_m.sort()
         x = list(row[0] for row in new_n_m)
         y = list(row[1] for row in new_n_m)
-        # Добавление на рисунок прямоугольной (по умолчанию) области рисования
+        # Adds a rectangular (default) drawing area to the drawing
         scatter1 = plt.scatter(self.x_max, self.y_max)
         count = 0
         for row in self.n_m:
@@ -185,7 +185,7 @@ class Pareto2:
 
         plt.plot(x, y)
         plt.text(self.x_max, self.y_max, 'Точка утопии')
-        grid1 = plt.grid(True)  # линии вспомогательной сетки
+        grid1 = plt.grid(True)  # auxiliary grid lines
         plt.show()
 
     def get_solution(self):
