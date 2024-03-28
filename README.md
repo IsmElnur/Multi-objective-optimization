@@ -34,12 +34,16 @@ Description of preferences:
 Criteria:
 
 1. Scholarship amount: Oxford doesn't pay scholarships to students, at the TSU the scholarship is small, at the MIPT – more, at the MSU – significantly more.  
-2. Teacher qualifications: 
-
+2. Teacher qualifications: the most qualified teachers are at Oxford, slightly less qualified at the MSU, less qualified at the MIPT, and the lowest qualified teachers at the TSU.  
+3. Cost of living in the city: the lowest cost of living is in Tomsk, significantly higher in Dolgoprudny, much higher in Moscow, the highest cost of living is in London.  
+4. Prestige of the diploma: the most prestigious diploma is at Oxford, slightly less at the MSU, less prestigious at the MIPT, and the least prestigious at the TSU.  
 
 
 We compose a vector of criterion weights using a scale of 1-10.  
 
+| Scholarship | Qualification | Cost of living in the city | Diploma |
+| :---:       |     :---:     |            :---:           |  :---:  |
+| 6   | 8     | 4    | 2 |
 
 The algorithm for solving the multi-objective optimization problem is implemented in the Python programming language.  
 
