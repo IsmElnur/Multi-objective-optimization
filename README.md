@@ -45,5 +45,7 @@ We compose a vector of criterion weights using a scale of 1-10.
 | :---:       |     :---:     |            :---:           |  :---:  |
 | 6   | 8     | 4    | 2 |
 
+By normalizing, we get the vector α = (0.3, 0.4, 0.2, 0.1).
+
 The algorithm for solving the multi-objective optimization problem is implemented in the Python programming language.  
 
