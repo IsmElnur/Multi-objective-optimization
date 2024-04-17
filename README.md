@@ -4,7 +4,7 @@ This is the process of simultaneous optimization of two or more conflicting obje
 
 Multi-objective optimization problems are found in many areas of science, technology and economics.  
 
-## The formulation of the problem  
+## Formulation of the problem  
 
 To choose the best of the alternatives for solving the proposed task of the specified criteria using the following methods:  
 
